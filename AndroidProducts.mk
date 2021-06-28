@@ -17,9 +17,9 @@
 
 # inherit MI A2 device config for AospExtended
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_jasmine_sprout.mk
+    $(LOCAL_DIR)/bliss_jasmine_sprout.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_jasmine_sprout-user \
-    aosp_jasmine_sprout-userdebug \
-    aosp_jasmine_sprout-eng
+    bliss_jasmine_sprout-user \
+    bliss_jasmine_sprout-userdebug \
+    bliss_jasmine_sprout-eng
