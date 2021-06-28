@@ -15,7 +15,7 @@
 # limitations under the License.
 #
 
-# inherit MI A2 device config for AospExtended
+# inherit MI A2 device config for BlissROM
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/bliss_jasmine_sprout.mk
 
