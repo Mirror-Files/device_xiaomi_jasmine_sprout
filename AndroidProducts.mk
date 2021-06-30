@@ -17,9 +17,9 @@
 
 # inherit MI A2 device config for BlissROM
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bliss_jasmine_sprout.mk
+    $(LOCAL_DIR)/havoc_jasmine_sprout.mk
 
 COMMON_LUNCH_CHOICES := \
-    bliss_jasmine_sprout-user \
-    bliss_jasmine_sprout-userdebug \
-    bliss_jasmine_sprout-eng
+    havoc_jasmine_sprout-user \
+    havoc_jasmine_sprout-userdebug \
+    havoc_jasmine_sprout-eng
