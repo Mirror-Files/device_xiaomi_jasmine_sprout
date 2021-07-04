@@ -15,11 +15,11 @@
 # limitations under the License.
 #
 
-# inherit MI A2 device config for BlissROM
+# Inherit MI A2 device config for XtendedROM
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bliss_jasmine_sprout.mk
+    $(LOCAL_DIR)/xtended_jasmine_sprout.mk
 
 COMMON_LUNCH_CHOICES := \
-    bliss_jasmine_sprout-user \
-    bliss_jasmine_sprout-userdebug \
-    bliss_jasmine_sprout-eng
+    xtended_jasmine_sprout-user \
+    xtended_jasmine_sprout-userdebug \
+    xtended_jasmine_sprout-eng
