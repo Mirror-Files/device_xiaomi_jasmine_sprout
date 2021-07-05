@@ -18,8 +18,7 @@
 $(call inherit-product, device/xiaomi/jasmine_sprout/device.mk)
 
 # Inherit BlissROM product configuration
-$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
-$(call inherit-product, vendor/gapps/basic/config.mk)
+$(call inherit-product, vendor/colt/config/common_full_phone.mk)
 
 # Define first api level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
@@ -38,13 +37,14 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 # Device identifier
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := xtended_jasmine_sprout
+PRODUCT_NAME := colt_jasmine_sprout
 PRODUCT_DEVICE := jasmine_sprout
 PRODUCT_MODEL := Mi A2
 
 # Inherit BlissROM Official build stuff.
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_BOOT_ANIMATION_RES := 1080
+COLT_BUILD_MAINTAINER := pb
 
 # Gapps
 IS_PHONE := true
@@ -56,6 +56,3 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # TWRP Support
 BUILD_TWRP := true
-
-XTENDED_BUILD_MAINTAINER := ParasBansal25
-XTENDED_BUILD_TYPE := UNOFFICIAL
