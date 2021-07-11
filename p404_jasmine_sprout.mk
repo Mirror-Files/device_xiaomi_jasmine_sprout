@@ -18,7 +18,7 @@
 $(call inherit-product, device/xiaomi/jasmine_sprout/device.mk)
 
 # Inherit BlissROM product configuration
-$(call inherit-product, vendor/404/config/common.mk)
+$(call inherit-product, vendor/404/configs/common.mk)
 
 # Define first api level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
