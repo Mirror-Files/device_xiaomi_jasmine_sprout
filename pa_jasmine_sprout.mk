@@ -37,7 +37,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 # Device identifier
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := p404_jasmine_sprout
+PRODUCT_NAME := pa_jasmine_sprout
 PRODUCT_DEVICE := jasmine_sprout
 PRODUCT_MODEL := Mi A2
 
