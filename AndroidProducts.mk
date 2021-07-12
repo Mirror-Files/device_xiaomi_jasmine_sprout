@@ -17,9 +17,9 @@
 
 # inherit MI A2 device config for BlissROM
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_jasmine_sprout.mk
+    $(LOCAL_DIR)/cafex_jasmine_sprout.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_jasmine_sprout-user \
-    aosp_jasmine_sprout-userdebug \
-    aosp_jasmine_sprout-eng
+    cafex_jasmine_sprout-user \
+    cafex_jasmine_sprout-userdebug \
+    cafex_jasmine_sprout-eng
