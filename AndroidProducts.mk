@@ -17,9 +17,9 @@
 
 # inherit MI A2 device config for BlissROM
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cafex_jasmine_sprout.mk
+    $(LOCAL_DIR)/conquer_jasmine_sprout.mk
 
 COMMON_LUNCH_CHOICES := \
-    cafex_jasmine_sprout-user \
-    cafex_jasmine_sprout-userdebug \
-    cafex_jasmine_sprout-eng
+    conquer_jasmine_sprout-user \
+    conquer_jasmine_sprout-userdebug \
+    conquer_jasmine_sprout-eng
