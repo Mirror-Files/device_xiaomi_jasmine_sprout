@@ -17,9 +17,9 @@
 
 # inherit MI A2 device config for BlissROM
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/syberia_jasmine_sprout.mk
+    $(LOCAL_DIR)/xperience_jasmine_sprout.mk
 
 COMMON_LUNCH_CHOICES := \
-    syberia_jasmine_sprout-user \
-    syberia_jasmine_sprout-userdebug \
-    syberia_jasmine_sprout-eng
+    xperience_jasmine_sprout-user \
+    xperience_jasmine_sprout-userdebug \
+    xperience_jasmine_sprout-eng
