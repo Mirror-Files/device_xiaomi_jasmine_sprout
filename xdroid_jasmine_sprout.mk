@@ -57,3 +57,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # TWRP Support
 BUILD_TWRP := true
+
+ROHIE_MAINTAINER := ParasBansal25
+ROHIE_BUILD_TYPE := OFFICIAL
