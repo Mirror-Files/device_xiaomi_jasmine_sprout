@@ -17,9 +17,9 @@
 
 # inherit MI A2 device config for BlissROM
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xdroid_jasmine_sprout.mk
+    $(LOCAL_DIR)/p404_jasmine_sprout.mk
 
 COMMON_LUNCH_CHOICES := \
-    xdroid_jasmine_sprout-user \
-    xdroid_jasmine_sprout-userdebug \
-    xdroid_jasmine_sprout-eng
+    p404_jasmine_sprout-user \
+    p404_jasmine_sprout-userdebug \
+    p404_jasmine_sprout-eng
